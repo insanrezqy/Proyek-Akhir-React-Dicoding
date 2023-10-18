@@ -1,0 +1,96 @@
+.TITLE{
+  display: flex;
+  justify-content: center;
+}
+
+.FORM_NOTES{
+  position: relative;
+  height: 100%;
+  left: 30%;
+}
+
+.TABLE_NOTES{
+  width: 100%;
+}
+
+.sisa_karakter{
+  left: 350px;
+  position: relative;
+}
+
+#title{
+  position: relative;
+  left: 120px;
+  width: 450px;
+}
+
+#catatan{
+  position: relative;
+  left: 120px;
+  width: 450px;
+  height: 100px;
+}
+
+#search{
+  width: 200px;
+}
+
+#submit{
+  position: relative;
+  left: 120px;
+  width: 30%;
+}
+
+label{
+  margin: 25px 25px;
+}
+
+.button_delete{
+  background-color: red;
+  width: 100px;
+  font-size: medium;
+  font-family: ui-sans-serif;
+  color: white;
+}
+
+.button_archived{
+  background-color: black;
+  width: 100px;
+  font-size: medium;
+  font-family: ui-sans-serif;
+  color: white;
+}
+
+.button_active{
+  background-color: green;
+  width: 100px;
+  font-size: medium;
+  font-family: ui-sans-serif;
+  color: white;
+}
+
+.table-active{
+  border-style: groove;
+  width: 300px;
+}
+
+.table-archived{
+  border-style: groove;
+  width: 300px;
+}
+
+.label-createdAt{
+  font-family: ui-serif;
+  font-size: small;
+  color: darkgrey;
+}
+
+.item-active{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.item-Archived{
+  display: flex;
+  flex-flow: row wrap;
+}
